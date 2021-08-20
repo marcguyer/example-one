@@ -61,9 +61,19 @@
       </interpreter>
     </phpInfoCache>
   </component>
+  <component name="PhpProjectServersManager">
+    <servers>
+      <server host="localhost" id="0df02619-0770-4b0e-ab18-0e526c8ba1cb" name="localhost" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$" remote-root="/var/www/html" />
+        </path_mappings>
+      </server>
+    </servers>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.0" />
   <component name="PhpUnit">
     <phpunit_settings>
-      <phpunit_by_interpreter interpreter_id="00c339d6-3fb9-43c0-a92f-8e063173763c" custom_loader_path="/var/www/html/vendor/autoloader.php" phpunit_phar_path="" />
+      <phpunit_by_interpreter interpreter_id="00c339d6-3fb9-43c0-a92f-8e063173763c" configuration_file_path="/var/www/html/phpunit.xml.dist" custom_loader_path="/var/www/html/vendor/autoloader.php" phpunit_phar_path="" use_configuration_file="true" />
     </phpunit_settings>
   </component>
 </project>
