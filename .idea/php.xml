@@ -2,9 +2,6 @@
 <project version="4">
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter id="eabe1ec4-0ea4-4dda-8822-7e6abb50a1be" name="Parent Docker Compose Service" home="docker://DATA" debugger_id="php.debugger.XDebug">
-        <remote_data INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="submodules-example_one:latest" DOCKER_REMOTE_PROJECT_PATH="/opt/project" />
-      </interpreter>
       <interpreter id="00c339d6-3fb9-43c0-a92f-8e063173763c" name="Submodule Dockerfile" home="docker://DATA" debugger_id="php.debugger.XDebug">
         <remote_data INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="example-one:latest" DOCKER_REMOTE_PROJECT_PATH="/opt/project" />
       </interpreter>
@@ -62,62 +59,11 @@
           </loaded_extensions>
         </phpinfo>
       </interpreter>
-      <interpreter name="Parent Docker Compose Service">
-        <phpinfo binary_type="PHP" php_cli="/usr/local/bin/php" path_separator=":" version="8.0.9">
-          <additional_php_ini>/usr/local/etc/php/conf.d/docker-php-ext-sodium.ini, /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini</additional_php_ini>
-          <configuration_file />
-          <configuration_options>
-            <configuration_option name="include_path" value=".:/usr/local/lib/php" />
-          </configuration_options>
-          <debuggers>
-            <debugger_info debugger="xdebug" debugger_version="3.0.4">
-              <debug_extensions />
-            </debugger_info>
-          </debuggers>
-          <loaded_extensions>
-            <extension name="Core" />
-            <extension name="PDO" />
-            <extension name="Phar" />
-            <extension name="Reflection" />
-            <extension name="SPL" />
-            <extension name="SimpleXML" />
-            <extension name="ctype" />
-            <extension name="curl" />
-            <extension name="date" />
-            <extension name="dom" />
-            <extension name="fileinfo" />
-            <extension name="filter" />
-            <extension name="ftp" />
-            <extension name="hash" />
-            <extension name="iconv" />
-            <extension name="json" />
-            <extension name="libxml" />
-            <extension name="mbstring" />
-            <extension name="mysqlnd" />
-            <extension name="openssl" />
-            <extension name="pcre" />
-            <extension name="pdo_sqlite" />
-            <extension name="posix" />
-            <extension name="readline" />
-            <extension name="session" />
-            <extension name="sodium" />
-            <extension name="sqlite3" />
-            <extension name="standard" />
-            <extension name="tokenizer" />
-            <extension name="xdebug" />
-            <extension name="xml" />
-            <extension name="xmlreader" />
-            <extension name="xmlwriter" />
-            <extension name="zlib" />
-          </loaded_extensions>
-        </phpinfo>
-      </interpreter>
     </phpInfoCache>
   </component>
   <component name="PhpUnit">
     <phpunit_settings>
-      <phpunit_by_interpreter interpreter_id="eabe1ec4-0ea4-4dda-8822-7e6abb50a1be" />
-      <phpunit_by_interpreter interpreter_id="00c339d6-3fb9-43c0-a92f-8e063173763c" />
+      <phpunit_by_interpreter interpreter_id="00c339d6-3fb9-43c0-a92f-8e063173763c" custom_loader_path="/var/www/html/vendor/autoloader.php" phpunit_phar_path="" />
     </phpunit_settings>
   </component>
 </project>
