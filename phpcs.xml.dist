@@ -2,7 +2,7 @@
 <ruleset
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="vendor/squizlabs/php_codesniffer/phpcs.xsd"
-    name="marcguyer/example-one"
+    name="default"
 >
     <arg name="basepath" value="."/>
     <arg name="extensions" value="php"/>
@@ -13,8 +13,7 @@
     <!-- Ignore warnings and show progress of the run -->
     <arg value="np"/>
 
-    <file>examples</file>
-    <file>src</file>
+    <file>public</file>
     <file>test</file>
 
     <rule ref="PSR12">

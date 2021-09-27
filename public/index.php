@@ -4,6 +4,7 @@ $var = "a string";
 
 echo "Hello world!";
 
-function newFunction(){
-    
+function newFunction()
+{
+    return "something new";
 }
